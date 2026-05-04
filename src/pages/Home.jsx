@@ -29,15 +29,15 @@ const Home = () => {
             <div className="glass-card" style={{ gridColumn: 'span 1' }}>
               <h2 className="mb-4" style={{ color: '#047857', fontSize: '2rem' }}>The Problem</h2>
               <p style={{ fontSize: '1.1rem', color: '#475569' }}>
-                India mein har saal bahut saara khana weddings aur functions mein waste ho jata hai, 
-                jabki dusri taraf log bhookhe sote hain.
+                Every year in India, a massive amount of food is wasted at weddings and functions, 
+                while on the other hand, many people go to sleep hungry.
               </p>
             </div>
             <div className="glass-card" style={{ gridColumn: 'span 2', background: '#ecfdf5', borderColor: '#d1fae5' }}>
               <h2 className="mb-4" style={{ color: '#047857', fontSize: '2rem' }}>Our Solution</h2>
               <p style={{ fontSize: '1.2rem', color: '#334155' }}>
-                <strong>AnnSeva</strong> ek platform hai jo wedding/functions ke leftover food ko 
-                NGOs, orphanages aur zaruratmand logon tak safely pahunchata hai.
+                <strong>AnnSeva</strong> is a platform that safely delivers leftover food from weddings and functions 
+                to NGOs, orphanages, and people in need.
               </p>
             </div>
           </div>
@@ -54,21 +54,21 @@ const Home = () => {
                 <Utensils size={32} />
               </div>
               <h3 className="mb-2">1. Donor Posts</h3>
-              <p>Wedding organizer ya caterer leftover food ki details daalte hain</p>
+              <p>Wedding organizers or caterers post details of leftover food</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Building size={32} />
               </div>
               <h3 className="mb-2">2. Nearby NGOs</h3>
-              <p>NGOs aur volunteers ko instant notification jaata hai</p>
+              <p>NGOs and volunteers receive instant notifications</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">
                 <Heart size={32} />
               </div>
               <h3 className="mb-2">3. Food Pickup</h3>
-              <p>Food safely pick kiya jata hai aur needy logon tak pahunchaya jata hai</p>
+              <p>Food is safely picked up and delivered to needy people</p>
             </div>
           </div>
         </div>
@@ -82,17 +82,17 @@ const Home = () => {
             <div className="feature-card" style={{ padding: '30px 20px' }}>
               <MapPin size={40} className="mb-4" style={{ color: '#10B981', margin: '0 auto' }} />
               <h3 className="mb-2" style={{ fontSize: '1.2rem' }}>Location Based</h3>
-              <p style={{ fontSize: '0.9rem' }}>Nearby donors aur receivers ko match karta hai</p>
+              <p style={{ fontSize: '0.9rem' }}>Matches nearby donors and receivers</p>
             </div>
             <div className="feature-card" style={{ padding: '30px 20px' }}>
               <Camera size={40} className="mb-4" style={{ color: '#10B981', margin: '0 auto' }} />
               <h3 className="mb-2" style={{ fontSize: '1.2rem' }}>Food Photos</h3>
-              <p style={{ fontSize: '0.9rem' }}>Donor food ki photo upload kar sakte hain</p>
+              <p style={{ fontSize: '0.9rem' }}>Donors can upload photos of the food</p>
             </div>
             <div className="feature-card" style={{ padding: '30px 20px' }}>
               <ShieldCheck size={40} className="mb-4" style={{ color: '#10B981', margin: '0 auto' }} />
               <h3 className="mb-2" style={{ fontSize: '1.2rem' }}>Verification</h3>
-              <p style={{ fontSize: '0.9rem' }}>NGOs aur donors ko verify kiya jata hai</p>
+              <p style={{ fontSize: '0.9rem' }}>NGOs and donors are verified</p>
             </div>
             <div className="feature-card" style={{ padding: '30px 20px' }}>
               <Smartphone size={40} className="mb-4" style={{ color: '#10B981', margin: '0 auto' }} />
