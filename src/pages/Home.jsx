@@ -103,30 +103,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Impact */}
-      <section className="section impact-section">
-        <div className="container">
-          <h2 className="text-center mb-12" style={{ fontSize: '2.5rem' }}>Our Impact</h2>
-          <div className="grid-4">
-            <div className="impact-card">
-              <h3>500+</h3>
-              <p>Meals Distributed</p>
-            </div>
-            <div className="impact-card">
-              <h3>50+</h3>
-              <p>Events Covered</p>
-            </div>
-            <div className="impact-card">
-              <h3>15+</h3>
-              <p>NGO Partners</p>
-            </div>
-            <div className="impact-card">
-              <h3>2000kg+</h3>
-              <p>Food Saved</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </>
   );
 };
